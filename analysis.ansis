@@ -1,0 +1,85 @@
+Project Name : My Notes
+Description : Simple example project that can be applied to many technologies like : Java, PHP, Python, JavaScript, Golang, Android.
+
+Analysis:
+1. The User open/run the program
+2.1. If the first time use or User not loged in, the system showing "Login" page.
+2.2. The system will make cache/cookies where User is already not first time use, when this happen skip the phases to point 7.
+3. User press "Sign Up" Button and then the system showing the "Sign Up" page.
+4. User fill the "Sign Up" form and pressing "Submit" button.
+5.1. System saving it into the database and prompt the message : "Registering Success" with "OK" button, when click on it the sytem redirect him/her to "Login" page.
+5.2. The field that has "* (star)" symbol means a must to be filled or system will thrown a message of error : "Fill The Required Field!"
+5.3. If The system having problem, it will thrown a message of error : "Something's not right! Please Try Again!", might be the database lost connection or there are bugs in the code.
+6.1. User fill the "Login" form and system redirect him/her to "Dashboard" page tab "My Notes".
+6.2. If User fill the username/email or password is wrong, the system will prompt message : "The Username/Email or Password is Wrong! Try Again!"
+6.3. If User fill the right username/email and password but still wrong, the system will prompt message : "Something's not right! Please Try Again!", might be the database lost connection or there are bugs in the code.
+
+In "Dashboard" page, there are 2 tabs: "My Notes" and "My Favorite"
+7. In "My Notes" tab, system reading the database and showing the User's owned notes, if there are no notes the system will show the message "No Notes".
+8. In "Dashboard" page, "My Notes" tab, User can add, edit, delete or favorite notes, or go to labeled notes.
+
+The items, in this case are "notes", have "label" as categorize note under its name. For Native Java with Maven, the interface is different.
+The "add" button shown in plus icon.
+The "edit" button shown in pencil icon.
+The "delete" button shown in trash icon.
+The "favorite" button shown in love icon.
+
+9. User click "add" button, he/she will redirect to "Add" page.
+10. User fill the form and submit the data.
+11.1. The system saving it into the database and redirect User to "Dashboard" page.
+11.2. The field that has "* (star)" symbol means a must to be filled or system will thrown a message of error : "Fill The Required Field!"
+11.3. If The system having problem, it will thrown a message of error : "Something's not right! Please Try Again!", might be the database lost connection or there are bugs in the code.
+12. The User click on the note, he/she will redirect to "[NOTE_TITLE]" page.
+13. In "[NOTE_TITLE]" page, also have "edit" and "delete" button.
+14. User click "edit" button wether in "Dashboard" page or "[NOTE_TITLE]" page, he/she will redirect to "Edit" page.
+15. User fill and update the data and submit it.
+16.1 The system updating and saving it into the database and User redirect to "[NOTE_TITLE]" page.
+16.2. The field that has "* (star)" symbol means a must to be filled or system will thrown a message of error : "Fill The Required Field!"
+16.3. If The system having problem, it will thrown a message of error : "Something's not right! Please Try Again!", might be the database lost connection or there are bugs in the code.
+17.1. User click "delete" button, the system will prompt message : "Are you sure you want to delete this note?" with 2 buttons : "Yes" and "No"
+17.2. If User click "Yes" on the prompt message, the system will delete it.
+17.3. If User click "No" on the prompt message, the system ignore the order and close the prompt message.
+
+19. When the User move to another tab, "My Favorite", the interface in not different with "My Notes".
+20. If User click on one of the note's label, the system will redirect him/her to "[LABELS_NAME]" page and the interface is same.
+21. If the User click "All Label", the system will redirect him/her to the "Label" page.
+
+In "Label" page, User can add, edit or delete a label.
+22. User click "Add Label" page, the system will redirect him/her to "Add Label" page.
+22. The User fill the form and submit it.
+23.1. The system saving it into the database and prompt the message : "Success Storing Label" with "OK" button, when click on it the sytem redirect him/her to "All Label" page.
+23.2. The field that has "* (star)" symbol means a must to be filled or system will thrown a message of error : "Fill The Required Field!"
+23.3. If The system having problem, it will thrown a message of error : "Something's not right! Please Try Again!", might be the database lost connection or there are bugs in the code.
+24. If User click "edit" button, he/she will redirect to "Edit Label" page.
+25. User fill and update the data and submit it.
+26.1. The system updating and saving it into the database and User redirect to "All Label" page.
+26.2. The field that has "* (star)" symbol means a must to be filled or system will thrown a message of error : "Fill The Required Field!"
+26.3. If The system having problem, it will thrown a message of error : "Something's not right! Please Try Again!", might be the database lost connection or there are bugs in the code.
+27. User click "delete" button, the system will prompt message : "Are you sure you want to delete this label?" with 2 buttons : "Yes" and "No"
+28. User click "Yes" on the prompt message, the system will delete it.
+29. User click "No" on the prompt message, the system ignore the order and close the prompt message.
+
+30. When User click "My Profile", the system redirect him/her to "My Profile" page.
+31. The system showing User his/her profile information like:
+-v Full Name
+-v Nick Name
+-x Username 
+-x Email 
+-v Password 
+-v Pin 
+-v Phone Number 
+-v Gender 
+-v Address 
+-v Description 
+
+The sign with "v" is the data where can be edited.
+The sign with "x" is the data where can not be edited.
+
+32. When User click "Edit Profile", the system redirect him/her to "Edit Profile" page.
+33. User fill or updating his/her information and submit it.
+34.1. The system updating and saving it into the database and User redirect to "All Label" page.
+34.2. The field that has "* (star)" symbol means a must to be filled or system will thrown a message of error : "Fill The Required Field!"
+34.3. If The system having problem, it will thrown a message of error : "Something's not right! Please Try Again!", might be the database lost connection or there are bugs in the code.
+
+35. User click "Logout", the system will redirect User to "Login" page and remove/delete cache/cookies.
+36. In desktop application like Java, there is "Exit", when User click it, the system will stop and close the program.

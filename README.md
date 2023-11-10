@@ -1,2 +1,9 @@
-# mynotes
-My Notes is a simple example project with many technologies applied. Like Java, PHP, Python, Golang and JavaScript. Both native and framework.
+# My Note
+is a simple example project built in many programming languages. This project is a example project for my public content education so that audience can learn from this example project and free to use and modify to audience's heart content.
+
+# The Database
+In database folder, there are 2 files ; database.sql and store_procedure.sql, is a raw and prototypes script that can be used in many databases technologies like SQL, MySQL, SQLite, PostgreSQL, MariaDB, MongoDB, etc. Audiences can used it and converted it into database technologies they would like used to their heart content.
+
+# Technology Used
+
+# @ Copyright Syahri Ramadhan Wiraasmara (Ari Wiraasmara)
